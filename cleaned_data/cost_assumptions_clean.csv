@@ -1,0 +1,13 @@
+sku,packaging_cost_per_cup_thb,labor_cost_per_cup_thb,base_price_thb
+Watermelon,6,5,45.0
+Pineapple,6,5,49.0
+Guava,6,5.5,49.0
+PassionFruit,6,6,65.0
+MixedBerryPremium,8,7,89.0
+,,,
+"Fixed monthly overhead per central kitchen (rent, utilities, base staffing):",,,
+kitchen,fixed_monthly_overhead_thb,note,
+Pattaya_Central,180000,"rent + utilities + base staff, central kitchen",
+Pattaya_Beach,150000,"rent + utilities + base staff, central kitchen",
+BKK_Sukhumvit,200000,"rent + utilities + base staff, central kitchen",
+BKK_Ladprao,140000,"rent + utilities + base staff, central kitchen",
