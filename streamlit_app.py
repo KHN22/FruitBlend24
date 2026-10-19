@@ -274,7 +274,7 @@ elif app_mode == "Budget Performance":
         marker_color='royalblue'
     ))
     fig_budget.update_layout(
-        bmode='group',
+        barmode='group',
         title="Monthly Actual Revenue vs Budget Targets",
         xaxis_title="Month",
         yaxis_title="Gross Revenue (THB)",
