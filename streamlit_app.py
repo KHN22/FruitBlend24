@@ -309,7 +309,7 @@ elif app_mode == "Budget Performance":
             'Actual Gross (THB)': '{:,.2f}',
             'Variance (THB)': '{:+,.2f}',
             'Variance %': '{:+.2f}%'
-        }).applymap(color_variance, subset=['Variance (THB)', 'Variance %']),
+        }).map(color_variance, subset=['Variance (THB)', 'Variance %']),
         use_container_width=True
     )
     
